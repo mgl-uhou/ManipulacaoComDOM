@@ -1,0 +1,75 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to top right, #485BCA, #B659B9);
+    background-color: #485BCA;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formulario{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    
+    height: 600px;
+    width: 300px;
+
+    margin: 15px;
+    padding: 15px;
+    padding-top: 0;
+
+    background-color: aliceblue;
+    border: none;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    /* color: white; */
+    margin-top: 0;
+    padding-top: 0;
+}
+
+input{
+    outline: none;
+
+    background: none;
+    border: 1px solid #B659B9;
+    border-radius: 5px;
+
+    height: 20px;
+}
+
+.enviar{
+    display: flex;
+    justify-content: center;
+}
+
+input[type="submit"]{
+    width: 100px;
+    height: 30px;
+}
+
+.formulario [type="submit"]:hover{
+    background: linear-gradient(to top right, #485BCA, #B659B9);
+    color: white;
+    border: none;
+}
+
+label{
+    font-weight: bolder;
+}
