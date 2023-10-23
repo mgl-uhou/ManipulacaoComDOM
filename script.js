@@ -17,5 +17,8 @@ const pegaNome = () => {
 
     console.table(pessoa);
 
-    nome = data_nascimento = nome_pai = nome_mae = "";
+    document.getElementById("nome").value = "";
+    document.getElementById('data_nascimento').value = "";
+    document.getElementById('nome_pai').value = "";
+    document.getElementById('nome_mae').value = "";
 }
