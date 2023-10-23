@@ -44,14 +44,15 @@ h1{
     padding-top: 0;
 }
 
-input{
+input, 
+button{
     outline: none;
 
     background: none;
     border: 1px solid #B659B9;
     border-radius: 5px;
 
-    height: 20px;
+    height: 30px;
 }
 
 .enviar{
@@ -59,12 +60,12 @@ input{
     justify-content: center;
 }
 
-input[type="submit"]{
+button{
     width: 100px;
     height: 30px;
 }
 
-.formulario [type="submit"]:hover{
+.formulario button:hover{
     background: linear-gradient(to top right, #485BCA, #B659B9);
     color: white;
     border: none;
@@ -73,4 +74,4 @@ input[type="submit"]{
 label{
     font-weight: bolder;
     margin-bottom: 5px;
-}
+} 
