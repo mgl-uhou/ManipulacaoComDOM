@@ -15,10 +15,14 @@ const pegaNome = () => {
         nomeMae: nome_mae
     }
 
-    console.table(pessoa);
+    if(pessoa.nome != "" && pessoa.dataDeNascimento != "" && pessoa.nomePai != "" && pessoa.nomeMae != ""){
+        
+        console.table(pessoa);
 
-    document.getElementById("nome").value = "";
-    document.getElementById('data_nascimento').value = "";
-    document.getElementById('nome_pai').value = "";
-    document.getElementById('nome_mae').value = "";
+        document.getElementById("nome").value = "";
+        document.getElementById('data_nascimento').value = "";
+        document.getElementById('nome_pai').value = "";
+        document.getElementById('nome_mae').value = "";
+    }else
+        console.log("Algum(ns) campo(s) está(ão) inválido(s)");
 }
